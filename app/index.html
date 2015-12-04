@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>css js modal</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300,100' rel='stylesheet' type='text/css'>
+    
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    <div class="hero-unit">
+      <h1>HTML & JS Modals</h1>
+      <p>based on Bootstrap 4.0.0</p>
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+      </button>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed aliquet lorem, at viverra lacus. Pellentesque et nulla non velit commodo pharetra sit amet sit amet turpis. Duis ullamcorper quam purus, in eleifend ligula scelerisque laoreet. </p>
+            <p>In quis accumsan mauris. Donec at ex et neque cursus fermentum non eu tortor. Integer gravida tincidunt arcu, nec sodales turpis. In luctus in nibh in pharetra. Cras pharetra sem non metus condimentum accumsan. Curabitur sed felis et diam commodo vestibulum. Nullam rutrum tortor nisl, id volutpat leo semper ac. Nam tempus quis magna eget sollicitudin. In in imperdiet massa. Donec mollis sed nisi nec cursus. In elementum nulla lorem, vel pretium ligula auctor vel. Suspendisse in mauris sem.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js js/main.js -->
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js js/vendors.js -->
+    <script src="js/util.js"></script>
+    <script src="js/modal.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
